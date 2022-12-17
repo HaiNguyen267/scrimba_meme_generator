@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@1,900&family=Roboto&display=swap');
+.Header {
+    display: flex;
+    background: rgb(164, 6, 164);
+    line-height: 50px;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: white;
+}
+
+.app-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Anybody', cursive;
+}
+
+.app-info img {
+    height: 50px;
+}
+
+.app-info p {
+    font-size: 1.2em;
+}
+
+.project-info {
+    font-family: 'Roboto', sans-serif;
+}

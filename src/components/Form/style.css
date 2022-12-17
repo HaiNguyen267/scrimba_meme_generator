@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@1,900&family=Roboto&display=swap');
+
+
+.Form {
+    padding: 50px;
+}
+
+.text-form {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 10px;
+}
+
+.text-form * {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+.text-form input {
+    padding: 10px 10px;
+}
+
+.text-form button {
+    grid-column: 1 / -1;
+    color: white;
+    background: linear-gradient(120deg, rgb(104, 17, 104), rgb(203, 62, 203));
+    cursor: pointer;
+}
+
+.meme {
+    position: relative;
+    margin: 20px 0;
+}
+
+.meme-img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.meme-text {
+    position: absolute; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px 3px#000;
+
+}
+
+.top-text {
+    top: 0;
+}
+
+.bottom-text {
+    bottom: 0;
+}
